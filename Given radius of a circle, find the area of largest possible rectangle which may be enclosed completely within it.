@@ -1,0 +1,8 @@
+import math
+r=int(input("enter the value of radius: "))
+if r<0:
+    print("-1")
+else:
+    area = math.sqrt(2) * r
+
+print(area)
