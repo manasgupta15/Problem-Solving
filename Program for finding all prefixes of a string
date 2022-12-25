@@ -1,0 +1,5 @@
+str11="GeeksforGeeks"
+spl_char="r"
+print("The original string is: "+str(str11))
+suffix=str11.rsplit(spl_char,1)[1]
+print("The suffix string is: "+str(suffix))
