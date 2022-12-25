@@ -1,0 +1,9 @@
+import datetime
+import calendar
+
+def findday(date):
+    born=datetime.datetime.strptime(date,'%d %m %Y').weekday()
+    return (calendar.day_name[born])
+
+date='20 09 2000'
+print(findday(date))
