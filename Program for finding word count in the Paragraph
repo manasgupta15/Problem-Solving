@@ -1,0 +1,2 @@
+a="manas gupta"
+print(len(a))
