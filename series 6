@@ -1,0 +1,15 @@
+n=int(input("enter the value of n"))
+x=float(input("enter the value of x"))
+x=x*3.14/180
+print(x)
+p=1
+f=1
+s=1
+sine=1
+for i in range(2,n+1,2):
+    sine=sine*-1
+    p=pow(x,i)
+    f=f*i*(i-1)
+    s=s+sine*(p/f)
+
+print(round(s,3))
