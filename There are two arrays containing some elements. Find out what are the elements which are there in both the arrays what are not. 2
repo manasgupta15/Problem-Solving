@@ -1,0 +1,12 @@
+a=['python','c','cpp']
+b=['data science','python','django']
+c=[]
+d=[]
+for i in a:
+    if i in b:
+        c.append(i)
+    else:
+        d.append(i)
+
+print("The common elements are: ",c)
+print("the uncommon elements are: ",d)
