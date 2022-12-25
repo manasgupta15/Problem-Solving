@@ -1,0 +1,10 @@
+s="123215"
+leftsum=0
+rightsum=0
+for  i in range(0,int(len(s)/2)):
+    leftsum=leftsum+int(s[i])
+    rightsum=(rightsum+int(s[len(s)-1-i]))
+    if(leftsum==rightsum):
+        print("balanced")
+    else:
+        print("Not Balanced")
