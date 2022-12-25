@@ -1,0 +1,22 @@
+a=input("enter the character: ")
+if (a=='a'):
+    print("vowel")
+    if (a == 'e'):
+        print("vowel")
+        if (a == 'i'):
+            print("vowel")
+            if (a == 'o'):
+                print("vowel")
+                if (a == 'u'):
+                    print("vowel")
+
+if (a=='A'):
+    print("consonant")
+    if (a == 'E'):
+        print("consonant")
+        if (a == 'I'):
+            print("consonant")
+            if (a == 'O'):
+                print("consonant")
+                if (a == 'U'):
+                    print("consonant")
