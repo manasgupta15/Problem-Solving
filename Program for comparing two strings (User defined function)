@@ -1,0 +1,4 @@
+print("karlos"=="karlos")
+print("karlos">"karlos")
+print("karlos"<"karlos")
+print("karlos"!="karlos")
