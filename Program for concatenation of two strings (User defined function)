@@ -1,0 +1,4 @@
+greeting="Good morning, "
+name="Manas Gupta"
+combine=greeting+name
+print(combine)
