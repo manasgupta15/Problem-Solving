@@ -1,0 +1,10 @@
+str="abcdef"
+str2="20xyz"
+str3="manas"
+
+str4=str.isidentifier()
+str5=str2.isidentifier()
+str6=str3.isidentifier()
+print(str4)
+print(str5)
+print(str6)
