@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main(void)
+{
+
+    int num = 1, i;
+    unsigned long new_num;
+
+    int  j, count, temp;
+
+    for (i= 0 ;i < 8 ; i++)
+    {
+        new_num =  0;
+        j = 1;
+
+        printf("\n %u \t", num);
+
+        while (num)
+        {
+            temp = num % 10;
+
+            num /=10;
+
+            count = 1;
+
+            while (temp == (num%10))
+            {
+                count++;
+                num /=10;
+            }
+
+            // printf("count %d, temp %d, j %d, new_num %d \n", count, temp, j, new_num);
+
+            new_num = (((10*count) + temp) *j) + new_num;
+
+            j *= 100;
+        }
+
+        num = new_num;
+      }
+    return 0;
+}
