@@ -1,0 +1,12 @@
+n1=int(input("enter the number 1 \n"))
+n2=int(input("enter the 2nd number \n"))
+n3=int(input("enter the third number \n"))
+
+if n1>n2 and n1>n3:
+    largest=n1
+elif n2>n1 and n2>n3:
+    largest=n2
+else:
+    largest=n3
+
+print(largest)
