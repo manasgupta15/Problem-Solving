@@ -1,0 +1,7 @@
+n=4
+for i in range(n):
+    k=1
+    for j in range(i+1):
+        print(i+k,end=" ")
+        k=k+1
+    print()
