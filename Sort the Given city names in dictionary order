@@ -1,0 +1,9 @@
+city_name={
+    'one':"saharanpur",
+    'two':'bijnor',
+    'three':'luckhnow',
+    'four':'ghaziabad',
+    'five':'amritsar'
+}
+
+print(city_name.values())
