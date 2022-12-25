@@ -1,0 +1,7 @@
+str1=input("enter the string")
+str1=str1.casefold()
+rev_str=reversed(str1)
+if list(str1)==list(rev_str):
+    print("yes palindrome")
+else:
+    print("no")
