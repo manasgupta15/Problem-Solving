@@ -1,0 +1,7 @@
+def reverse(str):
+    str=str[::-1]
+    return str
+
+s="manas"
+print("the original string is: ",s)
+print("the reversed of a string is: ",reverse(s))
