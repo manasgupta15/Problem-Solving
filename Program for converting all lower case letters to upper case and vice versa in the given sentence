@@ -1,0 +1,2 @@
+a="manas GUPTA"
+print(a.swapcase())
